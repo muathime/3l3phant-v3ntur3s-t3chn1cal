@@ -13,7 +13,7 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3001:80"
+      - "1337:80"
     volumes:
       - ./frontend:/app
     environment:
